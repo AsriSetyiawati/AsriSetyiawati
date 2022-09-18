@@ -1,0 +1,85 @@
+.banner {
+  background: url("https://i.pinimg.com/564x/95/f7/d3/95f7d34b88f206d0757a1d70d7ac9dac.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: rgb(0, 0, 0);
+  
+}
+  
+  #about {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(0, 0, 0);
+  }
+  
+  #portfolio {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(0, 0, 0);
+  }
+  
+  #team {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(0, 0, 0);
+  }
+  
+  #contact {
+    background-color: #c6d6dc;
+    min-height: 850px;
+    background: url(https://wallpaperaccess.com/full/1867010.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    color: #fff;
+  }
+  
+  
+  #blog {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(255, 255, 255);
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 5rem;
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 500px) {
+    .jumbotron {
+      background-image: url(img/bg-responsive.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  
